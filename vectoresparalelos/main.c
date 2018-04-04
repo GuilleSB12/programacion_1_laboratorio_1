@@ -5,10 +5,16 @@
 int main()
 {
     int i;
-    int edad [ CANT ];
-    float sueldo [ CANT ];
-    int legajo [ CANT ];
+    int edad[CANT];
+    float sueldo[CANT];
+    int legajo[CANT];
 
+
+
+    for ( i = 0; i < CANT; i++ )
+    {
+        legajo[i] = i + 1;
+    }
     for ( i = 0; i < CANT; i++ )
     {
         printf("Ingrese edad: ");
@@ -16,18 +22,16 @@ int main()
 
         printf("Ingrese sueldo: ");
         scanf("%f", &sueldo[i]);
-
-        printf("Ingrese legajo: ");
-        scanf("%d", &legajo[i]);
     }
 
     for ( i = 0; i < CANT; i++)
     {
-        printf("%d", edad[i]);
 
-        printf("%f", sueldo[i]);
+        printf("%d\n", legajo[i]);
 
-        printf("%d", legajo[i]);
+        printf("%d\n", edad[i]);
+
+        printf("%.2f\n", sueldo[i]);
     }
 
     return 0;
