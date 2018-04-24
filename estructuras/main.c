@@ -1,38 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+struct fecha{
+    int dia, mes, anio;
+};
 
- int getInt (char mensaje[], char mensajeError[], int intentos, int maximo, int minimo);
-
+struct gente{
+    char nombre[81];
+    struct fecha f_nacimiento;
+};
 
 int main()
 {
-    int info = getInt("Ingrese mensaje: ", "No es valido el mensaje!!", 1, 120, 1);
+    struct gente persona;
+
+    printf("Nombre: ");
+    scanf("%[^\n]", persona.nombre);
+
+    printf("\n\nFecha de nacimiento");
+    printf("\nDia: ");
+    scanf("%d", &persona.f_nacimiento.dia);
+
+    printf("\nMes: ");
+    scanf("%d", &persona.f_nacimiento.mes);
+
+    printf("\nAño: ");
+    scanf("%d", &persona.f_nacimiento.anio);
+
+    system("cls");
+    printf("%s nacio el %d/%d/%d", persona.nombre, persona.f_nacimiento.dia, persona.f_nacimiento.mes, persona.f_nacimiento.anio);
 
     return 0;
 }
-
-int getInt (char mensaje[], char mensajeError[], int intentos, int maximo, int minimo)
-{
-    int retorno = 0;
-
-        do
-        {
-            printf("%s", mensaje);
-            scanf("%d", &retorno);
-
-            if (retorno < maximo && retorno >= minimo)
-                {
-                    break;
-                }
-
-            printf("%s", mensajeError);
-
-            intentos--;
-        }while (intentos > 0);
-
-    return retorno;
-}
-
-
-
