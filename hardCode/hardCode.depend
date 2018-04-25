@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1524616545 source:d:\hardcode\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado.h"
+
+1524615727 d:\hardcode\empleado.h
+
