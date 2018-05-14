@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1525741045 source:d:\salcedo_guillermo_1f\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"proveedor.h"
+	"menu.h"
+
+1525735657 d:\salcedo_guillermo_1f\producto.h
+
+1525732769 d:\salcedo_guillermo_1f\proveedor.h
+
+1525731600 d:\salcedo_guillermo_1f\menu.h
+
+1525740995 source:d:\salcedo_guillermo_1f\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1525741212 source:d:\salcedo_guillermo_1f\productos.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"validaciones.h"
+
+1525732377 d:\salcedo_guillermo_1f\validaciones.h
+
+1525733273 source:d:\salcedo_guillermo_1f\proveedor.c
+	<stdio.h>
+	<stdlib.h>
+	"proveedor.h"
+	"validaciones.h"
+
+1525733209 source:d:\salcedo_guillermo_1f\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+
