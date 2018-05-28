@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1496280304 source:d:\meza.geraldine.recup1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+
+1496279688 d:\meza.geraldine.recup1\misfunciones.h
+
+1496279688 source:d:\meza.geraldine.recup1\misfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"misFunciones.h"
+
