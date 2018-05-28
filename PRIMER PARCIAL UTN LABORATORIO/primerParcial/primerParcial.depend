@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1525739754 source:d:\stocki_ladislaoalex_1f\primerparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"productos.h"
+	"proveedores.h"
+	"menu.h"
+	"utn.h"
+
+1525740287 d:\stocki_ladislaoalex_1f\primerparcial\productos.h
+
+1525739470 d:\stocki_ladislaoalex_1f\primerparcial\proveedores.h
+
+1525738748 d:\stocki_ladislaoalex_1f\primerparcial\menu.h
+
+1525738748 d:\stocki_ladislaoalex_1f\primerparcial\utn.h
+
+1525739764 source:d:\stocki_ladislaoalex_1f\primerparcial\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"productos.h"
+	"proveedores.h"
+	"menu.h"
+
