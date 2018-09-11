@@ -1,0 +1,18 @@
+void mostrar ( int x )
+{
+	x = 9;
+}
+
+en el main int y = 7;
+	mostrar (y);// variable actual
+
+solo x ve le 9!! no y//pasaje por valor.
+
+void mostrar ( vec[])
+{
+	vec [0] = 4;	
+}
+
+en el main int y [10];
+
+mostrar (y);// pasaje por referencia. el vector guarda la direccion de memoria del 1er vector, se lo pasa por defecto.
