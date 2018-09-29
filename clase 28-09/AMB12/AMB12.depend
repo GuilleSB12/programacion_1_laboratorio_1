@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1538180911 source:c:\amb12\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1538176584 c:\amb12\funciones.h
+
+1538180988 source:c:\amb12\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
